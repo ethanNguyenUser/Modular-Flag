@@ -1,9 +1,4 @@
-/*
-* Nguyen, Ethan
-* APCS, Period 1
-* 16 November 2018
-* Palo Alto High School
-*/
+package ethanNguyen;
 
 import java.awt.Color;
 import java.awt.Graphics;
@@ -21,7 +16,8 @@ public class Flag extends JApplet {
     // variables given here
 
     // Set the constants to exactly what is specified in the documentation
-	
+
+	private static final long serialVersionUID = 1L;
 	private int scale = 800;                  //Default scale of flag
 	private final int STRIPES = 13;
 	private final double A = 1.0;             // Hoist (width) of flag
